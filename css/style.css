@@ -48,7 +48,7 @@ a{
     display: flex;
 }
 
-.justuify-content-between{
+.justify-content-between{
     justify-content: space-between;
 }
 
@@ -57,3 +57,82 @@ a{
     align-items: center;
 }
 
+/*Main*/
+
+
+img{
+    height: 40rem;
+    margin-left: 1rem;
+}
+
+
+.container{
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.text{
+    margin-left: 1rem;
+}
+
+span{
+    color: #ff0000;
+}
+
+
+
+/*Position*/
+
+.top{
+    position: relative;
+}
+
+.levi{
+    display: none;
+    position: absolute; 
+    font-size: 1rem;
+}
+
+.img-genral:hover .levi {
+    display: block;
+}
+
+.bg-red{
+    background-color: #ff0000;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 35rem;
+    padding: 2px;
+}
+
+
+.bg-green{
+    background-color: green;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: 35rem;
+    padding:2px;   
+}
+
+.cl-green{
+    background-color: green;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 35rem;
+    padding:2px; 
+}
+
+.heart{
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: 27.5rem;
+    margin-top: 10px;
+    padding:10px;  
+}
