@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    font-family: sans-serif;
+}
 
 header{
     background-color: #ff6900;
@@ -48,15 +50,6 @@ a{
     display: flex;
 }
 
-.justify-content-between{
-    justify-content: space-between;
-}
-
-
-.align-items-center{
-    align-items: center;
-}
-
 /*Main*/
 
 
@@ -67,25 +60,24 @@ img{
 
 
 .container{
-    margin-left: 10rem;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .text{
     margin-left: 1rem;
 }
 
-span{
+.discount{
     color: #ff0000;
 }
 
-
+.price{
+    text-decoration: line-through;
+}
 
 /*Position*/
-
-.top{
-    position: relative;
-}
 
 .levi{
     display: none;
